@@ -24,14 +24,6 @@
 					color: #FFFF33;
 				}
 				
-				.bordosopra{
-				
-					width: 100%;
-					color:white;
-					background-color: black;
-					
-				}
-			
 				.bordo{
 				
 					width: 100%;
@@ -40,6 +32,13 @@
 					
 				}
 				
+				.bordosopra{
+				
+					width: 100%;
+					color:white;
+					background-color: black;
+					
+				}
 			
 				details > summary {
 					padding: 4px;
@@ -59,6 +58,30 @@
 					margin:0;
 					}
 					
+				.img {
+				
+					max-width:100%;
+					display: block;
+					margin-left: auto;
+					margin-right: auto;
+	  
+				}
+
+				.img2 {
+				
+					display: inline;
+					
+				}
+				
+				.imgvinile{
+					
+					max-width:100%;
+					display: block;
+					margin-left: auto;
+					margin-right: auto;
+	  
+				}	
+					
 				.immaginevinile {
 					background-color: #E9E5E4;
 					padding: 4px;
@@ -75,30 +98,6 @@
 					border: 7px solid black;
 					
 					}
-
-				.img {
-				
-					max-width:100%;
-					display: block;
-					margin-left: auto;
-					margin-right: auto;
-	  
-				}
-
-				.img2 {
-					display: inline;
-					
-	  
-				}
-				
-				.imgvinile{
-					
-					max-width:100%;
-					display: block;
-					margin-left: auto;
-					margin-right: auto;
-	  
-				}
 				
 				.maps{
 				
@@ -108,6 +107,13 @@
 					margin-left: auto;
 					margin-right: auto;
 	  
+				}
+				
+				.caselle{
+				
+					background-color: #33FF33;
+					color: #6600CC;
+					
 				}
 
 		
@@ -160,6 +166,7 @@
 						<div class="bordo">
 						
 						<details>
+							
 							<summary> <b> Descrizione </b></summary>
 									<p> <b> Seen / Unseen è un album-compilation targato Sweet Trip : il vinile di colore nero contiene, all'interno della sua confezione, un libretto realizzato alla spiegazione dei brani e un album fotografico, che ritrae il duo nelle sale di registrazioni </b> </p>
 						</details>
@@ -169,6 +176,7 @@
 						<div class="bordo">
 						
 						<details>
+							
 							<summary> <b> Immagine Vinile </b></summary>
 									<p class="immaginevinile"> <img class="imgvinile" src="imgvinile.jpg" alt="sweetrip" style="width:500px;"> </p>
 						
@@ -179,11 +187,12 @@
 						<div class="bordo">
 						
 						<details>
+							
 							<summary> <b> Costo </b></summary>
 									<p> <b> Il costo è di 25 euro + (Mancia di spedizione variabile dai 5 a 10 euro) 
 									
 
-									<input id="mancia" type="number"  name="mancia" min="5" max="10" class="l"><label for="mancia"></label> </b> </p>
+									<input id="mancia" type="number"  name="mancia" min="5" max="10" class="caselle"><label for="mancia"></label> </b> </p>
 						</details>
 						
 						</div>
@@ -191,12 +200,13 @@
 						<div class="bordo">
 						
 						<details>
+							
 							<summary> <b> Mantenimento </b></summary>
 									<p> <b> Puoi scegliere il tipo di mantenimento del prodotto: </b>
 									
 									<br>
 									
-										<select name="prodotto" id="prodotto" required >
+										<select name="prodotto" id="prodotto" class="caselle" >
 											<option value="f15">Molto usato</option> 
 											<option value="f30">Usato</option> 
 											<option value="f45">Nuovo</option> 
@@ -211,6 +221,7 @@
 						<div class="bordo">
 						
 						<details>
+							
 							<summary> <b> Spedizione </b></summary>
 									<p>  
 									
@@ -229,6 +240,7 @@
 						<div class="bordo">
 						
 						<details>
+							
 							<summary> <b> Recensione </b></summary>
 							
 							<p>
